@@ -1,10 +1,11 @@
 import React from "react";
-import TableOne from "./TableOne";
+import DropdownOffice from "./DropdownOffice";
 
 export default function SurveyFormPage() {
   return (
     <div>
-      <TableOne />
+      {/* <TableOne /> */}
+      <DropdownOffice />
     </div>
   );
 }
