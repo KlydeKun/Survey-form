@@ -2,8 +2,8 @@
 
 import React, { useState } from "react";
 import { Button } from "primereact/button";
-import TableForm from "../components/Table";
-import { govData, range, responseRating } from "../libs/Data";
+import TableForm from "../../components/Table";
+import { govData, range, responseRating } from "../../libs/Data";
 
 // Type definitions based on govData structure
 interface Question {
